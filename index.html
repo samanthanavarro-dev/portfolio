@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Samantha N. Navarro — Analista e Desenvolvedora de Sistemas.">
+  <title>Samantha N. Navarro | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Foto de perfil */
+    .about-image .image-placeholder {
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .about-image .profile-photo {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: inherit;
+    }
+
+    /* LinkedIn e GitHub com a mesma cor */
+    .social-button {
+      background: #0077b5 !important;
+      color: #ffffff !important;
+      border: 1px solid #0077b5 !important;
+      text-decoration: none;
+      transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+    }
+
+    .social-button:hover,
+    .social-button:focus {
+      background: #005f8d !important;
+      color: #ffffff !important;
+      border-color: #005f8d !important;
+      transform: translateY(-2px);
+    }
+
+    /* Foto com acabamento integrado ao design */
+    .about-image .image-placeholder {
+      border: 4px solid #0077b5;
+      box-shadow: 0 12px 35px rgba(0, 119, 181, 0.22);
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="brand" href="#inicio"><span>SN</span> Samantha Navarro</a>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+      <div class="nav-links">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+        <a class="cv-button" href="#contato">Entrar em contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Olá, eu sou</p>
+          <h1>Samantha <span>N. Navarro</span></h1>
+          <h2>Analista e Desenvolvedora de Sistemas</h2>
+          <p class="hero-text">
+            Formada em Análise e Desenvolvimento de Sistemas e em busca de uma oportunidade
+            de estágio ou trainee na área de Tecnologia da Informação.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contato">✉ Entrar em contato</a>
+            <a class="button secondary" href="#projetos">Ver projetos →</a>
+          </div>
+          <div class="tech-row">
+            <span>Python</span><span>JavaScript</span><span>C#</span><span>HTML</span><span>CSS</span><span>SQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section light">
+      <div class="container about-grid">
+        <div class="about-image">
+        <div class="image-placeholder">
+        <img src="IMG-20260228-WA0002.jpeg"
+        alt="Samantha Navarro"
+        class="profile-photo">
+        </div>
+        </div>
+        <div class="about-copy reveal">
+          <p class="section-label">Portfólio</p>
+          <h2>Sobre mim</h2>
+          <h3>Paixão por tecnologia, aprendizado e desenvolvimento.</h3>
+          <p>
+            Meu nome é <strong>Samantha N. Navarro</strong> e recentemente concluí o curso de
+            <strong>Análise e Desenvolvimento de Sistemas</strong> pela Universidade Paulista –
+            UNIP, Campinas/SP. Estou em busca de uma oportunidade de estágio ou trainee na área
+            de Tecnologia da Informação, onde possa aplicar meus conhecimentos acadêmicos e
+            desenvolver experiência prática.
+          </p>
+          <p>
+            Ao longo da minha formação, adquiri habilidades técnicas em Front-End
+            (HTML, CSS e JavaScript), Back-End (Python, Java, C e C++), Banco de Dados
+            (MySQL e SQL Server) e ferramentas como Git, GitHub, VS Code e XAMPP, entre outras.
+          </p>
+          <div class="pill-row">
+            <span>Aprendizado contínuo</span>
+            <span>Organização</span>
+            <span>Trabalho em equipe</span>
+            <span>Proatividade</span>
+          </div>
+        </div>
+
+        <aside class="formation-card reveal" id="formacao">
+          <div class="card-icon">⌘</div>
+          <h3>Formação Acadêmica</h3>
+          <p class="degree">Análise e Desenvolvimento de Sistemas</p>
+          <p>Universidade Paulista – UNIP</p>
+          <p>Campinas/SP · Concluído</p>
+          <hr>
+          <p>Durante a graduação, desenvolvi projetos práticos envolvendo programação, Banco de Dados, Desenvolvimento Web e Sistemas.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section dark">
+      <div class="container skills-grid">
+        <div class="reveal">
+          <p class="section-label">Tecnologia</p>
+          <h2>Habilidades Técnicas</h2>
+          <p class="section-subtitle">Ferramentas e tecnologias com as quais tenho contato acadêmico e prático.</p>
+          <div class="skills">
+            <span>🐍 Python</span><span>JS JavaScript</span><span>◈ C#</span>
+            <span>▣ Java</span><span>◈ C / C++</span><span>▤ HTML5</span>
+            <span>◫ CSS3</span><span>◉ MySQL</span><span>◉ SQL Server</span>
+            <span>◆ Git / GitHub</span><span>VS VS Code</span><span>XAMPP</span>
+          </div>
+        </div>
+        <div class="tech-visual reveal">
+          <div class="code-window">
+            <div class="window-top"><i></i><i></i><i></i></div>
+            <pre><code>function buildFuture() {
+  const skills = [
+    "tecnologia",
+    "aprendizado",
+    "dedicação"
+  ];
+
+  return skills;
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section light">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">Projetos</p>
+            <h2>Projetos Acadêmicos</h2>
+            <p>Experiências desenvolvidas durante minha formação.</p>
+          </div>
+        </div>
+        <div class="projects">
+          <article class="project-card reveal">
+            <div class="project-image project-one">01</div>
+            <div class="project-body">
+              <h3>StudyAI – Assistente Inteligente de Estudos</h3>
+              <p>Aplicação acadêmica com recursos de estudos, quizzes, resumos e acompanhamento de desempenho.</p>
+              <div class="tags"><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image project-two">02</div>
+            <div class="project-body">
+              <h3>Sistemas com Banco de Dados</h3>
+              <p>Desenvolvimento de sistemas completos com integração de banco de dados e interfaces distintas.</p>
+              <div class="tags"><span>SQL</span><span>MySQL</span><span>Python</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image project-three">03</div>
+            <div class="project-body">
+              <h3>Sites Institucionais</h3>
+              <p>Participação em projetos de sites para uma ONG não Governamental de Poços de Caldas/MG e um Grupo de Escoteiros de Valinhos/SP.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light extra">
+      <div class="container extra-grid">
+        <div class="info-block reveal">
+          <h3>Perfil profissional</h3>
+          <p>
+            Sou uma profissional dedicada, organizada e com forte capacidade de aprendizado contínuo.
+            Busco uma oportunidade em que possa transformar conhecimento acadêmico em experiência
+            prática e contribuir para os resultados da equipe.
+          </p>
+        </div>
+        <div class="info-block reveal">
+          <h3>Disponibilidade</h3>
+          <p>
+            Tenho disponibilidade de horário e para mudança de estado, especialmente para São Paulo,
+            conforme a oportunidade e as necessidades da empresa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div class="container contact-box reveal">
+        <div>
+          <p class="section-label">Vamos conversar?</p>
+          <h2>Estou aberta a novas oportunidades.</h2>
+          <p>
+            Agradeço pela atenção e coloco-me à disposição para uma entrevista, onde poderei
+            detalhar melhor minhas experiências, conhecimentos e objetivos profissionais.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://yahoo.com" target="_blank">
+    ✉ Enviar e-mail (navarro.samantha@yahoo.com.br)
+</a>
+
+ 
+<a class="button secondary" href="https://wa.me" target="_blank">📱 (19) 98184-7462</a>
+
+
+ 
+<a class="button secondary social-button"
+href="https://www.linkedin.com/in/samanthanavarro-83390b55/"
+target="_blank"
+rel="noopener">
+LinkedIn ↗
+</a>
+ 
+<a class="button secondary social-button"
+href="https://github.com/Samanthanavarro111"
+target="_blank"
+rel="noopener">
+GitHub ↗
+</a>
+ 
+</div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong>SN</strong> Samantha N. Navarro</div>
+      <div>Analista e Desenvolvedora de Sistemas</div>
+      <div>© 2026 · Portfólio Profissional</div>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
