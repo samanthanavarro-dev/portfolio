@@ -6,7 +6,7 @@
   <meta name="description" content="Portfólio profissional de Samantha N. Navarro — Analista e Desenvolvedora de Sistemas.">
   <title>Samantha N. Navarro | Portfólio</title>
   <link rel="stylesheet" href="style.css">
-
+  
   <style>
     /* Foto de perfil */
     .about-image .image-placeholder {
@@ -46,6 +46,58 @@
       border: 4px solid #0077b5;
       box-shadow: 0 12px 35px rgba(0, 119, 181, 0.22);
     }
+    .certifications-section{
+position:relative;
+background:#071926;
+color:#fff;
+padding:100px 0;
+overflow:hidden;
+}
+ 
+.certifications-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+margin-top:40px;
+}
+ 
+.certificate-card{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(0,119,181,.5);
+border-radius:18px;
+padding:20px;
+transition:.3s;
+}
+ 
+.certificate-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 30px rgba(0,119,181,.3);
+}
+ 
+.certificate-card summary{
+cursor:pointer;
+color:#4db8ff;
+font-size:1.1rem;
+font-weight:bold;
+}
+ 
+.certificate-card ul{
+margin-top:15px;
+}
+ 
+.certificate-card li{
+margin-bottom:10px;
+}
+ 
+.circuit-bg{
+position:absolute;
+inset:0;
+opacity:.08;
+background-image:
+linear-gradient(90deg,#0077b5 2px,transparent 2px),
+linear-gradient(#0077b5 2px,transparent 2px);
+background-size:120px 120px;
+}
   </style>
 </head>
 <body>
@@ -167,6 +219,49 @@
       <div class="container">
         <div class="section-heading reveal">
           <div>
+            </section>
+            <div class="nav-links">
+#inicioInício</a>
+#sobreSobre</a>
+#habilidadesHabilidades</a>
+#projetosProjetos</a>
+ 
+#certificacoesCertificações</a>
+ 
+#formacaoFormação</a>
+#contatoContato</a>
+</div>
+ 
+<!-- CERTIFICAÇÕES -->
+<section id="certificacoes" class="section certifications-section">
+ 
+<div class="circuit-bg"></div>
+ 
+<div class="container">
+ 
+<div class="section-heading reveal">
+<div>
+<p class="section-label">Qualificação Profissional</p>
+<h2>Certificações</h2>
+<p>Minha formação complementar na área de Tecnologia da Informação.</p>
+</div>
+</div>
+ 
+<div class="certifications-grid">
+ 
+<details class="certificate-card">
+<summary>🌐 Desenvolvimento Web</summary>
+<ul>
+<li>Crie um Site Simples usando HTML, CSS e JavaScript • Escola do Trabalhador 4.0 • 2h</li>
+<li>Crie um Site Simples usando HTML, CSS e JavaScript • Fundação Bradesco • 2h</li>
+</ul>
+</details>
+ 
+<details class="certificate-card">
+<summary>💻 Programação</summary>
+<ul>
+<li>Aprendendo a Programar • Microsoft Virtual Academy</li>
+<li>Desenvolvimento Básico em Java • DIO • 9h</li>
             <p class="section-label">Projetos</p>
             <h2>Projetos Acadêmicos</h2>
             <p>Experiências desenvolvidas durante minha formação.</p>
@@ -232,17 +327,15 @@
           </p>
         </div>
         <div class="contact-actions">
-          <a class="button primary" 
-          href="https://yahoo.com" target="_blank">
-         ✉ Enviar e-mail (navarro.samantha@yahoo.com.br)
-        </a>
-
  
-<a class="button secondary" href="https://wa.me" 
-target="_blank">📱 Enviar Mensagem
+<a class="button primary"
+href="mailto:navarro.samantha@yahoo.com.br">
+✉ Enviar e-mail
 </a>
-
-
+ 
+https://wa.me
+📱 Enviar Mensagem
+</a>
  
 <a class="button secondary social-button"
 href="https://www.linkedin.com/in/samanthanavarro-83390b55/"
@@ -252,15 +345,14 @@ LinkedIn ↗
 </a>
  
 <a class="button secondary social-button"
-href="https://github.com/samanthanavarro-dev" target="_blank">GitHub</a>
+href="https://github.com/samanthanavarro-dev"
 target="_blank"
 rel="noopener">
 GitHub ↗
 </a>
- 
 </div>
-
-    </section>
+</div>        
+</section>
   </main>
 
   <footer class="footer">
