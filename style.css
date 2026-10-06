@@ -180,6 +180,13 @@ CERTIFICADOS
   border-color: #0077b5 !important;
 }
 
+.contact-actions .email-btn {
+  width: 165px !important;
+  min-width: 165px !important;
+  max-width: 165px !important;
+  white-space: nowrap !important;
+}
+
 /* Hover */
 .contact-actions .contact-btn:hover {
   transform: translateY(-2px) !important;
