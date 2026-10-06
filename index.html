@@ -6,7 +6,7 @@
   <meta name="description" content="Portfólio profissional de Samantha N. Navarro — Analista e Desenvolvedora de Sistemas.">
   <title>Samantha N. Navarro | Portfólio</title>
   <link rel="stylesheet" href="style.css">
-  
+
   <style>
     /* Foto de perfil */
     .about-image .image-placeholder {
@@ -46,57 +46,48 @@
       border: 4px solid #0077b5;
       box-shadow: 0 12px 35px rgba(0, 119, 181, 0.22);
     }
-    .certifications-section{
-position:relative;
-background:#071926;
-color:#fff;
-padding:100px 0;
-overflow:hidden;
-}
+
+/* CERTIFICADOS */
  
-.certifications-grid{
+.certificates-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 gap:25px;
 margin-top:40px;
 }
  
 .certificate-card{
-background:rgba(255,255,255,.05);
-border:1px solid rgba(0,119,181,.5);
-border-radius:18px;
-padding:20px;
+background:#fff;
+border-radius:20px;
+padding:25px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
 transition:.3s;
+border-top:4px solid #0077b5;
 }
  
 .certificate-card:hover{
-transform:translateY(-5px);
-box-shadow:0 10px 30px rgba(0,119,181,.3);
+transform:translateY(-6px);
+box-shadow:0 15px 35px rgba(0,119,181,.15);
 }
  
-.certificate-card summary{
-cursor:pointer;
-color:#4db8ff;
-font-size:1.1rem;
-font-weight:bold;
+.certificate-icon{
+font-size:2rem;
+margin-bottom:15px;
+}
+ 
+.certificate-card h3{
+color:#0077b5;
+margin-bottom:15px;
 }
  
 .certificate-card ul{
-margin-top:15px;
+padding-left:18px;
 }
  
 .certificate-card li{
 margin-bottom:10px;
-}
- 
-.circuit-bg{
-position:absolute;
-inset:0;
-opacity:.08;
-background-image:
-linear-gradient(90deg,#0077b5 2px,transparent 2px),
-linear-gradient(#0077b5 2px,transparent 2px);
-background-size:120px 120px;
+line-height:1.6;
+color:#475569;
 }
   </style>
 </head>
@@ -109,6 +100,7 @@ background-size:120px 120px;
         <a href="#inicio">Início</a>
         <a href="#sobre">Sobre</a>
         <a href="#habilidades">Habilidades</a>
+        <a href="#certificados">Certificados</a>
         <a href="#projetos">Projetos</a>
         <a href="#formacao">Formação</a>
         <a href="#contato">Contato</a>
@@ -213,55 +205,131 @@ background-size:120px 120px;
           </div>
         </div>
       </div>
-    </section>
+
+    <section id="certificados" class="section light">
+      <div class="container">
+       
+        <div class="section-heading reveal">
+        <div>
+
+     <p class="section-label">Qualificações</p>
+ 
+     <h2>Certificações e Qualificações Profissionais</h2>
+ 
+    <p>
+    Cursos complementares realizados ao longo da minha formação
+    acadêmica e trajetória profissional em Tecnologia da Informação.
+    Mais de 24 certificados nas áreas de Desenvolvimento de Software,
+    Banco de Dados, Programação, Cloud Computing, Cybersecurity,
+    Desenvolvimento Web e Mobile.
+    </p>
+ 
+   </div>
+</div>
+
+<div class="certificates-grid">
+ 
+</div>
+</section>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">🌐</div>
+<h3>Desenvolvimento Web</h3>
+<ul>
+<li>Crie um Site Simples usando HTML, CSS e JavaScript • Escola do Trabalhador 4.0 • 2h • 13/09/2022</li>
+<li>Crie um Site Simples usando HTML, CSS e JavaScript • Fundação Bradesco • 2h • 18/07/2022</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">💻</div>
+<h3>Programação</h3>
+<ul>
+<li>Aprendendo a Programar • Microsoft Virtual Academy • 04/12/2019</li>
+<li>Desenvolvimento Básico em Java • DIO • 9h • 31/03/2020</li>
+<li>Introdução ao Kotlin • DIO • 6h • 06/03/2021</li>
+<li>POO • Fundação Bradesco • 5h • 04/06/2021</li>
+<li>Lógica de Programação • Fundação Bradesco • 15h • 15/02/2022</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">🗄️</div>
+<h3>Banco de Dados</h3>
+<ul>
+<li>Modelagem de Dados • Fundação Bradesco • 12h • 04/12/2018</li>
+<li>SQLite no Android • DIO • 7h • 14/04/2021</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">⚙️</div>
+<h3>Ferramentas e Versionamento</h3>
+<ul>
+<li>Introdução ao Git e GitHub • DIO • 5h • 04/03/2021</li>
+<li>GitHub e Comandos Essenciais para Trabalho em Equipe • DIO • 4h • 11/03/2020</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">📱</div>
+<h3>Desenvolvimento Mobile</h3>
+<ul>
+<li>Fundamentos das Aplicações Móveis • Fundação Bradesco • 12h • 2021</li>
+<li>Android Studio e Ferramentas • DIO • 3h • 16/03/2021</li>
+<li>Aplicativo Android com Kotlin • DIO • 6h • 07/04/2021</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">☁️</div>
+<h3>Cloud & Cybersecurity</h3>
+<ul>
+<li>Fundamentos de Cloud Computing • XPE Educação</li>
+<li>Fundamentos de Cybersecurity • XPE Educação</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">🏗️</div>
+<h3>Arquitetura e Frameworks</h3>
+<ul>
+<li>Fundamentos de Arquitetura de Sistemas • DIO • 6h</li>
+<li>Spring Boot • DIO • 2h</li>
+<li>Node.js com Express • DIO • 2h</li>
+<li>Estrutura de Dados e Algoritmos • DIO • 2h</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">✅</div>
+<h3>Qualidade de Software</h3>
+<ul>
+<li>Introdução ao Teste de Software • USP/Coursera • 28/10/2020</li>
+<li>Debugging, Tratamento de Erros e Exceções • DIO • 4h</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">🖥️</div>
+<h3>Hardware e Infraestrutura</h3>
+<ul>
+<li>
+Curso de Hardware (Montagem e Manutenção de Micros) •
+Microcamp • 264h • 2012-2014
+</li>
+</ul>
+</article>
+ 
+</div>
+</div>
+</section>
+
 
     <section id="projetos" class="section light">
       <div class="container">
         <div class="section-heading reveal">
           <div>
-            </section>
-            <div class="nav-links">
-#inicioInício</a>
-#sobreSobre</a>
-#habilidadesHabilidades</a>
-#projetosProjetos</a>
- 
-#certificacoesCertificações</a>
- 
-#formacaoFormação</a>
-#contatoContato</a>
-</div>
- 
-<!-- CERTIFICAÇÕES -->
-<section id="certificacoes" class="section certifications-section">
- 
-<div class="circuit-bg"></div>
- 
-<div class="container">
- 
-<div class="section-heading reveal">
-<div>
-<p class="section-label">Qualificação Profissional</p>
-<h2>Certificações</h2>
-<p>Minha formação complementar na área de Tecnologia da Informação.</p>
-</div>
-</div>
- 
-<div class="certifications-grid">
- 
-<details class="certificate-card">
-<summary>🌐 Desenvolvimento Web</summary>
-<ul>
-<li>Crie um Site Simples usando HTML, CSS e JavaScript • Escola do Trabalhador 4.0 • 2h</li>
-<li>Crie um Site Simples usando HTML, CSS e JavaScript • Fundação Bradesco • 2h</li>
-</ul>
-</details>
- 
-<details class="certificate-card">
-<summary>💻 Programação</summary>
-<ul>
-<li>Aprendendo a Programar • Microsoft Virtual Academy</li>
-<li>Desenvolvimento Básico em Java • DIO • 9h</li>
             <p class="section-label">Projetos</p>
             <h2>Projetos Acadêmicos</h2>
             <p>Experiências desenvolvidas durante minha formação.</p>
@@ -333,9 +401,13 @@ href="mailto:navarro.samantha@yahoo.com.br">
 ✉ Enviar e-mail
 </a>
  
-https://wa.me
-📱 Enviar Mensagem
+<div class="contact-actions">
+ 
+<a class="button primary"
+href="mailto:navarro.samantha@yahoo.com.br">
+✉ Enviar e-mail
 </a>
+ 
  
 <a class="button secondary social-button"
 href="https://www.linkedin.com/in/samanthanavarro-83390b55/"
@@ -350,11 +422,11 @@ target="_blank"
 rel="noopener">
 GitHub ↗
 </a>
+ 
 </div>
-</div>        
-</section>
-  </main>
 
+    </section>
+  </main>
   <footer class="footer">
     <div class="container footer-inner">
       <div><strong>SN</strong> Samantha N. Navarro</div>
@@ -365,3 +437,15 @@ GitHub ↗
 <script src="script.js"></script>
 </body>
 </html>
+
+     
+    
+
+
+       
+       
+  
+
+ 
+
+
