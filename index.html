@@ -47,7 +47,30 @@
       box-shadow: 0 12px 35px rgba(0, 119, 181, 0.22);
     }
 
-/* CERTIFICADOS */
+    #certificados .section-label,
+#certificados h2 {
+color: #0077b5 !important;
+}
+ 
+#certificados p {
+color: #334155 !important;
+}
+  .tech-visual{
+width:100%;
+}
+ 
+.code-window{
+width:100%;
+max-width:500px;
+margin:auto;
+overflow:auto;
+}
+
+  .skills-grid{
+align-items:center;
+}  
+
+  /* CERTIFICADOS */
  
 .certificates-grid{
 display:grid;
@@ -57,7 +80,7 @@ margin-top:40px;
 }
  
 .certificate-card{
-background:#0077;
+background:#ffffff;
 border-radius:20px;
 padding:25px;
 box-shadow:0 10px 30px rgba(0,0,0,.08);
@@ -223,14 +246,30 @@ color:#475569;
     Banco de Dados, Programação, Cloud Computing, Cybersecurity,
     Desenvolvimento Web e Mobile.
     </p>
+ <div class="certificates-grid">
  
-   </div>
+<article class="certificate-card reveal">
+<div class="certificate-icon">🌐</div>
+<section id="certificados" class="section light">
+<div class="container">
+ 
+<div class="section-heading reveal">
+<div>
+<p class="section-label">Qualificações</p>
+ 
+<h2>Certificações e Qualificações Profissionais</h2>
+ 
+<p>
+Cursos complementares realizados ao longo da minha formação
+acadêmica e trajetória profissional em Tecnologia da Informação.
+Totalizando mais de 24 certificações nas áreas de Programação,
+Desenvolvimento Web, Mobile, Banco de Dados, Cloud Computing,
+Cybersecurity, Hardware e Desenvolvimento de Sistemas.
+</p>
 </div>
-
+</div>
+ 
 <div class="certificates-grid">
- 
-</div>
-</section>
  
 <article class="certificate-card reveal">
 <div class="certificate-icon">🌐</div>
@@ -245,11 +284,12 @@ color:#475569;
 <div class="certificate-icon">💻</div>
 <h3>Programação</h3>
 <ul>
-<li>Aprendendo a Programar • Microsoft Virtual Academy • 04/12/2019</li>
-<li>Desenvolvimento Básico em Java • DIO • 9h • 31/03/2020</li>
-<li>Introdução ao Kotlin • DIO • 6h • 06/03/2021</li>
-<li>POO • Fundação Bradesco • 5h • 04/06/2021</li>
-<li>Lógica de Programação • Fundação Bradesco • 15h • 15/02/2022</li>
+<li>Aprendendo a Programar • Microsoft Virtual Academy</li>
+<li>Desenvolvimento Básico em Java • DIO • 9h</li>
+<li>Introdução ao Kotlin • DIO • 6h</li>
+<li>Fundamentos de Orientação a Objetos com Kotlin • DIO • 6h</li>
+<li>Fundamentos de Lógica de Programação • Fundação Bradesco • 15h</li>
+<li>Introdução à Programação Orientada a Objetos • Fundação Bradesco • 5h</li>
 </ul>
 </article>
  
@@ -257,36 +297,17 @@ color:#475569;
 <div class="certificate-icon">🗄️</div>
 <h3>Banco de Dados</h3>
 <ul>
-<li>Modelagem de Dados • Fundação Bradesco • 12h • 04/12/2018</li>
-<li>SQLite no Android • DIO • 7h • 14/04/2021</li>
+<li>Modelagem de Dados • Fundação Bradesco • 12h</li>
+<li>Desenvolvimento Integrado de Dados com SQLite no Android • DIO • 7h</li>
 </ul>
 </article>
  
 <article class="certificate-card reveal">
 <div class="certificate-icon">⚙️</div>
-<h3>Ferramentas e Versionamento</h3>
+<h3>Git e GitHub</h3>
 <ul>
-<li>Introdução ao Git e GitHub • DIO • 5h • 04/03/2021</li>
-<li>GitHub e Comandos Essenciais para Trabalho em Equipe • DIO • 4h • 11/03/2020</li>
-</ul>
-</article>
- 
-<article class="certificate-card reveal">
-<div class="certificate-icon">📱</div>
-<h3>Desenvolvimento Mobile</h3>
-<ul>
-<li>Fundamentos das Aplicações Móveis • Fundação Bradesco • 12h • 2021</li>
-<li>Android Studio e Ferramentas • DIO • 3h • 16/03/2021</li>
-<li>Aplicativo Android com Kotlin • DIO • 6h • 07/04/2021</li>
-</ul>
-</article>
- 
-<article class="certificate-card reveal">
-<div class="certificate-icon">☁️</div>
-<h3>Cloud & Cybersecurity</h3>
-<ul>
-<li>Fundamentos de Cloud Computing • XPE Educação</li>
-<li>Fundamentos de Cybersecurity • XPE Educação</li>
+<li>Introdução ao Git e GitHub • DIO • 5h</li>
+<li>Introdução ao GitHub e Comandos Essenciais para Trabalho em Equipe • DIO • 4h</li>
 </ul>
 </article>
  
@@ -295,9 +316,28 @@ color:#475569;
 <h3>Arquitetura e Frameworks</h3>
 <ul>
 <li>Fundamentos de Arquitetura de Sistemas • DIO • 6h</li>
-<li>Spring Boot • DIO • 2h</li>
-<li>Node.js com Express • DIO • 2h</li>
+<li>Introdução ao Framework Spring Boot • DIO • 2h</li>
+<li>Introdução ao Node.js com Express • DIO • 2h</li>
 <li>Estrutura de Dados e Algoritmos • DIO • 2h</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">📱</div>
+<h3>Desenvolvimento Mobile</h3>
+<ul>
+<li>Fundamentos das Aplicações Móveis • Fundação Bradesco • 12h</li>
+<li>Trabalhando com Android Studio e Principais Ferramentas • DIO • 3h</li>
+<li>Projetando o Primeiro Aplicativo Android usando Kotlin • DIO • 6h</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">☁️</div>
+<h3>Cloud e Cybersecurity</h3>
+<ul>
+<li>Fundamentos de Cloud Computing • XPE Educação</li>
+<li>Fundamentos de Cybersecurity • XPE Educação</li>
 </ul>
 </article>
  
@@ -305,8 +345,16 @@ color:#475569;
 <div class="certificate-icon">✅</div>
 <h3>Qualidade de Software</h3>
 <ul>
-<li>Introdução ao Teste de Software • USP/Coursera • 28/10/2020</li>
-<li>Debugging, Tratamento de Erros e Exceções • DIO • 4h</li>
+<li>Introdução ao Teste de Software • USP / Coursera</li>
+<li>Melhores Práticas para Debugging, Tratamento de Erros e Exceções • DIO • 4h</li>
+</ul>
+</article>
+ 
+<article class="certificate-card reveal">
+<div class="certificate-icon">📜</div>
+<h3>Ética e Formação Profissional</h3>
+<ul>
+<li>Ética no Desenvolvimento de Sistemas • Fundação Bradesco • 8h</li>
 </ul>
 </article>
  
@@ -314,18 +362,19 @@ color:#475569;
 <div class="certificate-icon">🖥️</div>
 <h3>Hardware e Infraestrutura</h3>
 <ul>
-<li>
-Curso de Hardware (Montagem e Manutenção de Micros) •
-Microcamp • 264h • 2012-2014
-</li>
+<li>Curso de Hardware (Montagem e Manutenção de Micros) • Microcamp • 264h</li>
+<li>Formatação de Computadores</li>
+<li>Instalação de Programas</li>
+<li>Remoção de Vírus</li>
+<li>Upgrade de Hardware</li>
+<li>Configuração de Impressoras em Rede</li>
 </ul>
 </article>
  
 </div>
+ 
 </div>
 </section>
-
-
     <section id="projetos" class="section light">
       <div class="container">
         <div class="section-heading reveal">
@@ -400,8 +449,6 @@ Microcamp • 264h • 2012-2014
 href="mailto:navarro.samantha@yahoo.com.br">
 ✉ Enviar e-mail
 </a>
- 
-<div class="contact-actions">
  
  <a class="button secondary social-button"
 href="https://www.linkedin.com/in/samanthanavarro-83390b55/"
