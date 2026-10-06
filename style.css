@@ -158,19 +158,23 @@ CERTIFICADOS
     border-color 0.25s ease,
     transform 0.25s ease !important;
 }
-
 /* E-mail */
-.contact-actions .email-btn {
-  background: #0077b5 !important;
-  color: #ffffff !important;
-  border-color: #0077b5!important;
-}
 .contact-actions .email-btn {
   width: 170px !important;
   min-width: 170px !important;
   max-width: 170px !important;
   white-space: nowrap !important;
+
+  background: #0077b5 !important;
+  color: #ffffff !important;
+  border-color: #0077b5 !important;
 }
+
+.contact-actions .email-btn:hover {
+  background: #005f8d !important;
+  border-color: #005f8d !important;
+}
+
 
 /* LinkedIn */
 .contact-actions .linkedin-btn {
