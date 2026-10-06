@@ -120,7 +120,72 @@ CERTIFICADOS
   box-sizing: border-box !important;
 }
 
+/* BOTÕES DA SEÇÃO CONTATO */
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.contact-actions .contact-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 140px !important;
+  min-width: 140px !important;
+  max-width: 140px !important;
+
+  height: 44px !important;
+  min-height: 44px !important;
+
+  padding: 0 20px !important;
+  margin: 0 !important;
+
+  border-radius: 4px !important;
+  border: 1px solid !important;
+
+  box-sizing: border-box !important;
+
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+
+  transition: 0.25s ease !important;
+}
+
+/* E-mail */
+.contact-actions .email-btn {
+  background: #1688ff !important;
+  color: #ffffff !important;
+  border-color: #1688ff !important;
+}
+
+/* LinkedIn e GitHub */
+.contact-actions .linkedin-btn,
+.contact-actions .github-btn {
+  background: #0077b5 !important;
+  color: #ffffff !important;
+  border-color: #0077b5 !important;
+}
+
+/* Hover */
+.contact-actions .contact-btn:hover {
+  transform: translateY(-2px);
+}
+
+.contact-actions .email-btn:hover {
+  background: #0066dc !important;
+  border-color: #0066dc !important;
+}
+
+.contact-actions .linkedin-btn:hover,
+.contact-actions .github-btn:hover {
+  background: #005f8d !important;
+  border-color: #005f8d !important;
+}
 
 /* Grid dos certificados */
 .certificates-grid {
