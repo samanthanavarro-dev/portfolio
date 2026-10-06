@@ -82,3 +82,142 @@ url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fi
   .skills{grid-template-columns:1fr 1fr}.projects,.extra-grid{grid-template-columns:1fr}
   .contact-box{padding:28px;flex-direction:column;align-items:flex-start}.contact-actions{width:100%}
 }
+CERTIFICADOS
+========================================= */
+
+#certificados {
+  background: #071a2d !important;
+  color: #ffffff;
+  padding: 85px 0;
+}
+
+/* Título pequeno: QUALIFICAÇÕES */
+#certificados .section-label {
+  color: #43b9ff !important;
+}
+
+/* Título principal */
+#certificados h2 {
+  color: #ffffff !important;
+}
+
+/* Texto de apresentação */
+#certificados .section-heading p:not(.section-label) {
+  color: #cbd5e1 !important;
+  max-width: 850px;
+}
+
+/* Grid dos certificados */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* Card */
+.certificate-card {
+  background: #0d2a45 !important;
+  color: #ffffff !important;
+
+  border: 1px solid rgba(67, 185, 255, 0.18);
+  border-top: 4px solid #1688ff;
+
+  border-radius: 20px;
+  padding: 28px;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.certificate-card:hover {
+  transform: translateY(-7px);
+
+  background: #103b5c !important;
+
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.35),
+    0 0 25px rgba(22, 136, 255, 0.12);
+}
+
+/* Ícone */
+.certificate-icon {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+/* Título de cada certificado */
+.certificate-card h3 {
+  color: #43b9ff !important;
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: 21px;
+
+  margin-bottom: 18px;
+}
+
+/* Lista */
+.certificate-card ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* Itens */
+.certificate-card li {
+  color: #e2e8f0 !important;
+
+  font-size: 14px;
+
+  line-height: 1.65;
+
+  margin-bottom: 10px;
+}
+
+/* Marcador da lista */
+.certificate-card li::marker {
+  color: #43b9ff;
+}
+
+/* =========================================
+   RESPONSIVO - CERTIFICADOS
+========================================= */
+
+@media (max-width: 900px) {
+
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 620px) {
+
+  #certificados {
+    padding: 60px 0;
+  }
+
+  .certificates-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 30px;
+  }
+
+  .certificate-card {
+    padding: 22px;
+  }
+
+  .certificate-card h3 {
+    font-size: 19px;
+  }
+
+  .certificate-card li {
+    font-size: 13px;
+  }
+
+}
