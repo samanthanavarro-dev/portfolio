@@ -107,6 +107,19 @@ CERTIFICADOS
   max-width: 850px;
 }
 
+.contact-actions .button.social-button {
+  width: 140px !important;
+  height: 44px !important;
+  min-width: 140px !important;
+  max-width: 140px !important;
+  padding: 0 20px !important;
+  border-radius: 4px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+}
+
 /* Grid dos certificados */
 .certificates-grid {
   display: grid;
