@@ -24,24 +24,40 @@
       border-radius: inherit;
     }
 
-    /* LinkedIn e GitHub com a mesma cor */
+    /* LinkedIn e GitHub com a mesma cor */Formato retangular*/
     .social-button {
-      background: #0077b5 !important;
-      color: #ffffff !important;
-      border: 1px solid #0077b5 !important;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      line-height: 1;
-      transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
-      }
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 
-    .social-button:hover,
-    .social-button:focus {
-      background: #005f8d !important;
-      color: #ffffff !important;
-      border-color: #005f8d !important;
-      transform: translateY(-2px);
+  width: 140px !important;
+  height: 46px !important;
+  padding: 0 !important;
+
+  background: #0077b5 !important;
+  color: #ffffff !important;
+
+  border: 1px solid #0077b5 !important;
+  border-radius: 4px !important;
+
+  text-decoration: none !important;
+  font-weight: 600;
+  line-height: 1 !important;
+
+  box-sizing: border-box !important;
+
+  transition: background 0.25s ease,
+              border-color 0.25s ease,
+              transform 0.25s ease;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background: #005f8d !important;
+  color: #ffffff !important;
+  border-color: #005f8d !important;
+  transform: translateY(-2px);
+}
     }
    
    /* Foto com acabamento integrado ao design */
