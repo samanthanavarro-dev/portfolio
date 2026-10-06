@@ -165,6 +165,12 @@ CERTIFICADOS
   color: #ffffff !important;
   border-color: #1688ff !important;
 }
+.contact-actions .email-btn {
+  width: 170px !important;
+  min-width: 170px !important;
+  max-width: 170px !important;
+  white-space: nowrap !important;
+}
 
 /* LinkedIn */
 .contact-actions .linkedin-btn {
