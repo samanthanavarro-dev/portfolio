@@ -163,10 +163,14 @@ CERTIFICADOS
 #projetos .tags span {
   font-size: 16px !important;
 }
-/* Aumentar somente as palavras da seção Sobre */
-#sobre .pill-row span {
-  font-size: 11px !important;
-  font-weight: 600 !important;
+
+.pill-row span,.tags span{
+  background:#eaf3ff;
+  color:#1269bd;
+  border-radius:20px;
+  padding:6px 10px;
+  font-size:11px;
+  font-weight:600
 }
 
 /* E-mail */
