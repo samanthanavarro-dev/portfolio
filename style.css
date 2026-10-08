@@ -164,13 +164,10 @@ CERTIFICADOS
   font-size: 16px !important;
 }
 
-.pill-row span,.tags span{
-  background:#eaf3ff;
-  color:#1269bd;
-  border-radius:20px;
-  padding:6px 10px;
-  font-size:14px;
-  font-weight:600
+/* Palavras do Sobre */
+#sobre .pill-row span {
+  font-size: 14px !important;
+  font-weight: 600 !important;
 }
 
 /* E-mail */
