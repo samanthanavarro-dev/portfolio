@@ -159,9 +159,9 @@ CERTIFICADOS
     transform 0.25s ease !important;
 }
 
-/*Projetos*/
-.skills span {
-  font-size: 20px !important;
+/* Aumentar somente as tags dos Projetos */
+#projetos .tags span {
+  font-size: 16px !important;
 }
 
 /* E-mail */
