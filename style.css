@@ -177,7 +177,8 @@ CERTIFICADOS
 
 /* Aumentar somente as palavras da seção Sobre */
 #sobre .pill-row span {
-  font-size: 14px !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
 }
 /* LinkedIn */
 .contact-actions .linkedin-btn {
