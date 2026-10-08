@@ -163,6 +163,11 @@ CERTIFICADOS
 #projetos .tags span {
   font-size: 16px !important;
 }
+/* Aumentar somente as palavras da seção Sobre */
+#sobre .pill-row span {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+}
 
 /* E-mail */
 .contact-actions .email-btn {
@@ -179,12 +184,6 @@ CERTIFICADOS
 .contact-actions .email-btn:hover {
   background: #005f8d !important;
   border-color: #005f8d !important;
-}
-
-/* Aumentar somente as palavras da seção Sobre */
-#sobre .pill-row span {
-  font-size: 30px !important;
-  font-weight: 700 !important;
 }
 /* LinkedIn */
 .contact-actions .linkedin-btn {
