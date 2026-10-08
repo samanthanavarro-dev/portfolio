@@ -161,13 +161,13 @@ CERTIFICADOS
 
 /* Aumentar somente as tags dos Projetos */
 #projetos .tags span {
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 
 /* Palavras do Sobre */
 #sobre .pill-row span {
-  font-size: 15px !important;
-  font-weight: 700 !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
 }
 
 /* E-mail */
