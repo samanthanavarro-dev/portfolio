@@ -158,6 +158,12 @@ CERTIFICADOS
     border-color 0.25s ease,
     transform 0.25s ease !important;
 }
+
+/*Projetos*/
+.skills span {
+  font-size: 16px !important;
+}
+
 /* E-mail */
 .contact-actions .email-btn {
   width: 170px !important;
